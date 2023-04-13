@@ -35,3 +35,4 @@ watercooler-*.tar
 npm-debug.log
 /assets/node_modules/
 
+.ssh

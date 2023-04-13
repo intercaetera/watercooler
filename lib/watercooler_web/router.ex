@@ -19,6 +19,7 @@ defmodule WatercoolerWeb.Router do
 
     # get "/", HomeController, :index
     live "/", HomeLive
+    get "/version", VersionController, :index
   end
 
   # Other scopes may use custom stacks.
